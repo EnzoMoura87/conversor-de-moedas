@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="page-title">
+            Conversor de Moedas
+        </h1>
+        <p class="page-subtitle">
+            Converta os valores em Reais para Dolar e Euro!
+        </p>
+        <h3 class="page-logo">
+            imersão <span>dev_</span>
+        </h3>
+        <label for="moeda">Insira o valor</label> <br>
+        <input type="number" id="valor" size="2" placeholder="R$" autofocus> <br>
+        <button type="submit" onclick="Converter()">Dolar</button>
+        <button type="submit" onclick="Converter1()">Euro</button>
+        <h2 id="valorConvertido"></h2>
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+
+        <script src="script.js"></script>
+</body>
+</html>

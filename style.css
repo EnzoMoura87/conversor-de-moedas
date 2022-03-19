@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto" sans-serif;
+    min-height: 400px;
+    background-image: url(dia-1-conversor-de-moedas.png);
+    background-color: #000;
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title {
+    color: #fff;
+    margin: 0 0 5px;
+    letter-spacing: 2px;
+}
+
+.page-subtitle {
+    color: #fff;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+
+.page-logo {
+    color: #fff;
+    font-weight: normal;
+    margin-top: 20px;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+span {
+    padding: 5px;
+    background-color: #FADA06;
+}
+
+.alura-logo {
+    width: 80px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+label {
+    color: #fff;
+    font-size: 18px;
+}
+
+input {
+    margin: 12px;
+    padding: 6px;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+h2 {
+    color: #d8c28a;
+    margin-top: 50px;
+    font-size: 30px;
+}
