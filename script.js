@@ -2,7 +2,7 @@ function Converter() {
     var valorElemento = document.getElementById("valor")
     var valor = valorElemento.value
     var valorEmDolarNumerico = parseFloat(valor)
-    var valorEmReal = valorEmDolarNumerico / 5.02
+    var valorEmReal = valorEmDolarNumerico / 4.98
     var valorEmRealFixo = valorEmReal.toFixed(2)
     console.log(valorEmRealFixo)
 
@@ -15,7 +15,7 @@ function Converter1() {
     var valorElemento = document.getElementById("valor")
     var valor = valorElemento.value
     var valorEmEuroNumerico = parseFloat(valor)
-    var valorEmReal = valorEmEuroNumerico / 5.56
+    var valorEmReal = valorEmEuroNumerico / 5.50
     var valorEmRealFixo = valorEmReal.toFixed(2)
     console.log(valorEmRealFixo)
 
